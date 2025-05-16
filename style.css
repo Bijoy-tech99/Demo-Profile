@@ -1,72 +1,80 @@
-body {
-     margin: 3px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
-#title1 {
-    font-size: 60px;
+header {
+    padding: 20px;
+    background-color: cadetblue;
     text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgb(35, 14, 128);
-    padding: 80px;
-    border-radius:7px;
-    margin: 0px 0px 0px;
-
-}
-
-.title{
-    text-align: center;
-    color: rgb(112, 25, 25);
-    font-size: 33px;
-    margin: 12px 0px 23px 109px;
-    padding: 71px 9px 68px 518px;
-    background-color: rgb(164, 162, 133);
+    text-transform: capitalize;
     border-radius: 9px;
-    font-family: Pacifico;
-    font-size: 28px;
+    margin: 0 0 1px 0;
 }
-#title2 {
-
-  font-family: "Great Vibes", cursive;
+header h2{
+  font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
-  text-align: left;
-  margin: 0px;
-
-
+}
+nav{
+    padding:12px;
+    background-color: rgb(221, 97, 92);
+    border-radius: 8px;
+}
+.my{
+    font-size: 27px;
+    color: rgb(132, 0, 165);
+    text-align: left;
+  font-family: "Lobster", sans-serif;
+  font-weight: 410;
+  font-style: normal;
 }
 
+.about h2{
+  font-family: "Lobster", sans-serif;
+  font-weight: 380;
+  font-style: normal;
+
+}
 
 main {
     text-align: center;
-    background-color: white;
+    margin: 0;
+    padding: 0;
 }
-section h2 {
-    margin: 30px 35px 45px 30px;
-}
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin: 0 0 0 0 
-}
-div {
-    object-fit: cover;
-    display: block;
-    margin: 46px auto;
-}
-#channle {
-    font-size:28px ;
 
+.team{
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-footer {
+.team-about{
+    margin: 0px;
+}
+
+.detail{ 
+    text-align: center;
+    margin-top: 0px;
+    
+}
+.bijoy{
+    margin: 9px;
+}
+.status {
+    margin: 7px;
+}
+.you {
+    padding: 18px;
+    background-color: rgb(95, 119, 10);
+    margin: 0px 201px 15px 191px;
+    border-radius: 10px;
+    color: white;
+}
+    
+footer{
     overflow: hidden;
-    background-color: rgb(41, 39, 39);
+    background-color: rgb(56, 52, 46);
 }
-footer a {
+footer a{
     text-decoration: none;
     text-align: center;
     float: left;
-    padding: 18px;
-    color: aliceblue;
+    padding: 19px;
+    color: beige;
 }
